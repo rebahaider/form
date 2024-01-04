@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        h2{
+            color: deeppink;
+            border: 2px solid black;
+            width: 250px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 3px 2px 5px black  ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Bokul Apur Pitha Ghor</h2>
+    </header>
+    <main>
+        <form action="">
+            <label for="name">Enter Your name :
+                <input type="text" name="" id="name" placeholder="Enter Your Name">
+            </label>
+            <label for="email">Enter Your Email :
+                <input type="email" name="" id="email" placeholder="Enter Your Email">
+            </label>
+            <label for="phone">Enter Your Phone Number
+                <input type="text" name="" id="phone" placeholder="Enter Your Phone Number">
+            </label>
+            <fieldset>
+                <legend>Pick One Pitha</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">Chitoy
+                </label>
+                <label for="dhupi">
+                    <input type="radio" name="pitha" id="dhupi">Dhupi
+                </label>
+                <label for="patisapta">
+                    <input type="radio" name="pitha" id="patisapta">Patisapta
+                </label>
+                <label for="kuli">
+                    <input type="radio" name="pitha" id="kuli">Kuli
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose One Or More Chatni</legend>
+                <label for="dhonepata">
+                    <input type="checkbox" name="" id="dhonepata"> Dhonepatar Chatni
+                </label>
+                <label for="pudinapata">
+                    <input type="checkbox" name="" id="pudinapata">Pudina Pater Chatni
+                </label>
+                <label for="tomato">
+                    <input type="checkbox" name="" id="tomato">Tometor Tok
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Some Instructions</legend>
+                <textarea name="" id="" cols="30" rows="2"></textarea>
+            </fieldset>
+            <input type="reset" name="" id="" value="Reset">
+            <input type="submit" name="" id="" value="Submit">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
